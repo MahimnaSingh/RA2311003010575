@@ -1,13 +1,1 @@
-{                                                                                                                                                      
-    "name": "logging-middleware",                           
-    "version": "1.0.0",                                                                                                                                  
-    "main": "dist/index.js",                                
-    "types": "dist/index.d.ts",
-    "scripts": {                                                                                                                                         
-      "build": "tsc"
-    },                                                                                                                                                   
-    "devDependencies": {                                    
-      "@types/node": "latest",
-      "typescript": "latest"
-    }                                                                                                                                                    
-  }
+{"name":"logging-middleware","version":"1.0.0","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc","start":"ts-node src/server.ts"},"devDependencies":{"@types/express":"^5.0.6","@types/node":"latest","typescript":"latest"},"dependencies":{"express":"^5.2.1"}}
